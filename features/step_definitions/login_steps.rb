@@ -1,5 +1,5 @@
 Dado("que eu esteja na tela do aplicativo ABV") do
-	@geral = Geral.new
+	@geral = Cadastro.new
 	@geral.validar_texto
 end
 
