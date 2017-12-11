@@ -5,4 +5,4 @@ require 'calabash-android/abase'
 require 'cpf_faker'
 require 'faker'
 
-MASSA = YAML.load_file('.\fixtures\default_data.yaml')
+MASSA = YAML.load_file('.\fixtures\data.yaml')
