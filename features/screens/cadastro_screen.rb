@@ -42,7 +42,7 @@ class Cadastro <Calabash::ABase
       self.preencher_senha(senha)
       self.clicar_criar_conta
   end
-  def validar_texto(timeout=30)
+  def validar_texto(timeout=10)
     wait_for_elements_exist([@elemnto_validar_cadastro], :timeout => timeout)
   end
 end
